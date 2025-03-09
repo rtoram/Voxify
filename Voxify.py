@@ -37,3 +37,4 @@ if __name__ == "__main__":
     
     # Executa a conversão
     convert_video_to_audio(video_file, output_file, format_choice)
+    cd Downloads
