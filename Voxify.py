@@ -4,7 +4,7 @@ from moviepy.editor import VideoFileClip
 def convert_video_to_audio(video_path, output_path, format="mp3"):
     """Converte um vídeo em áudio no formato especificado."""
     try:
-        video = VideoFileClip(video_path)
+        video = VideoFileClip(python Voxify.py)
         audio = video.audio
         audio.write_audiofile(output_path, codec=format)
         print(f"Conversão concluída: {output_path}")
